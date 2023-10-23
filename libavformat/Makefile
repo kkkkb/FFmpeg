@@ -3,8 +3,16 @@ DESC = FFmpeg container format library
 
 HEADERS = avformat.h                                                    \
           avio.h                                                        \
+          url.h                                                         \
           version.h                                                     \
           version_major.h                                               \
+          avio_internal.h                                               \
+          avc.h                                                         \
+          flv.h                                                         \
+          id3v2.h                                                       \
+          os_support.h                                                  \
+          metadata.h                                                    \
+          internal.h                                                    \
 
 OBJS = allformats.o         \
        avformat.o           \
