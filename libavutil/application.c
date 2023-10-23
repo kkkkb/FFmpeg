@@ -20,7 +20,7 @@
 
 #include "application.h"
 #include "libavformat/network.h"
-#include "libavutil/avstring.h"
+#include "avstring.h"
 
 void av_application_on_io_traffic(AVApplicationContext *h, AVAppIOTraffic *event);
 
